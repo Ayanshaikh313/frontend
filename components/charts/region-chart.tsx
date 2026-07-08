@@ -10,11 +10,11 @@ interface Props {
   }[];
 }
 
-export default function SectorChart({ data }: Props) {
+export default function RegionChart({ data }: Props) {
   return (
     <ChartCard
-      title="Sector Distribution"
-      description="Records by sector"
+      title="Region Distribution"
+      description="Records by region"
     >
       <DashboardBarChart
         data={data}
